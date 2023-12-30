@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+
+.Main-Card {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    font-size: 5px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.Main-Card:hover {
+    padding: 0;
+}
+
+.Poster {
+    height: 355px;
+    max-width: 100%;
+    border: 0.002px white solid;
+    /* transform: 0.3s; */
+    border-radius: 5px;
+}
+.Poster:hover {
+    position: relative;
+    height: 375px;
+}
+
+.Movie-Title {
+    width: 100%;
+    font-size: 17px;
+    padding: 8px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 560px) {
+    .Poster {
+        height: 240px;
+    }
+    .Poster:hover {
+        position: relative;
+        height: 260px;
+    }
+}
